@@ -1,0 +1,42 @@
+/* RCCG Rain of Mercy — brand overrides on top of HTML5 UP Story.
+   Accent colour (#1FA6DB, logo blue) is set directly in main.css. */
+
+.button.primary { background-color: #28106C; }
+.button.primary:hover { background-color: #3B2390; }
+.button.primary:active { background-color: #1E0B52; }
+
+.icon.style2.major:before {
+	color: #28106C;
+	box-shadow: inset 0 0 0 1px rgba(40, 16, 108, 0.3);
+}
+
+.site-logo {
+	display: block;
+	width: 100%;
+	max-width: 22rem;
+	height: auto;
+	margin: 0 0 2rem -0.5rem;
+}
+
+.banner .content h1 { font-size: 2.75rem; }
+.banner .service-line { font-weight: 400; color: #28106C; }
+
+.banner .image img { object-position: 50% 30%; }
+
+/* X logo is not in Font Awesome 5; match the .icon.style2 circle. */
+.icon-x {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 2.75em;
+	height: 2.75em;
+	border-radius: 2.75em;
+	border-bottom: 0;
+	box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2);
+	vertical-align: middle;
+	transition: box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+.icon-x svg { width: 1em; height: 1em; fill: currentColor; }
+.icon-x:hover { box-shadow: inset 0 0 0 1px #1FA6DB; color: #1FA6DB; }
+
+#about ul li { padding-left: 0.25rem; }
